@@ -45,7 +45,6 @@
 }
 .form-container form{
     width: 50%;
-    background-color: rgb(44, 7, 58);
     display: flex;
     justify-content: center;
     flex-direction: column;
