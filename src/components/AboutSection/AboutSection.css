@@ -1,0 +1,138 @@
+.main4{
+    background-color: var(--bg-color);  
+    display: flex;
+    align-items: start;
+    /* padding: 40px; */
+    position: relative;
+    color: white;
+    /* overflow: hidden; */
+    height: 100vh;
+}
+
+.left-right-container{
+    display: flex;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.main4 .left{
+    /* background-color: rebeccapurple; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left .heading-container{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.heading-container .line1{
+    font-size: 6rem;
+    overflow: hidden;
+}
+
+.heading-container .line1 p{
+    transform: translateY(100%);
+}
+
+.heading-container .line2{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: end;
+    overflow: hidden;
+}
+
+.heading-container .line2 p{
+    width: 50%;
+}
+
+.heading-container .line1 span{
+    margin: 2px;
+    font-weight: 800;
+    color: var(--highlight-color);
+    padding: 0 10px;
+}
+
+.main4 .right{
+    /* background-color: red; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main4 .right img{
+    height: 90%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.main4 .about-semicircle-container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.main4 .about-semicircle{
+    transform: translateX(-30%);
+    height: 40vh;
+    width: 40vh;
+    /* scale: 2; */
+    border: 1px solid #6b6060;
+    border-radius: 50%;
+    
+}
+
+@media (max-width : 470px) {
+    .left-right-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main4 .left{
+        width: 100%;
+    }
+
+    .main4 .right{
+        height: 50%;
+    }
+
+    .heading-container{
+        align-items: center;
+    }
+
+    .heading-container .line1{
+        font-size: 3.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .heading-container .line1 p{
+        transform: translateY(-300%);
+    }
+
+    .heading-container .line2{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .heading-container .line2 p{
+        width: 100%;
+    }
+}

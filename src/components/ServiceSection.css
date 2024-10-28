@@ -1,0 +1,36 @@
+.main2 {
+    color: white;
+    padding: 50px;
+    height: 100vh;
+    background: rgb(6, 197, 159);
+    background: linear-gradient(315deg, #00bc97 0%, #12695d 28%, #20272f 81%);
+}
+.services {
+  padding: 30px 0;
+  margin-bottom: 50px;
+  font-size: large;
+  border-radius: 10px;
+  text-align: center;
+}
+.main2 .cards {
+  padding: 20px 40px;
+  background: #09111a24;
+  backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 10vw;
+  border-radius: 50%;
+}
+
+.cards h1{
+  text-align: center;
+}

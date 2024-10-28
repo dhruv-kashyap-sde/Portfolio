@@ -1,0 +1,54 @@
+.main3{
+    background-color: var(--bg-color);
+    background: radial-gradient(circle, var(--theme-color) 0%, var(--bg-color) 47%, var(--bg-color) 100%);
+    padding-bottom: 10vh;
+}
+
+.main3 .project-text{
+    text-align: center;
+    font-size: 7vw;
+    gap: 10px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.project-text span{
+    color: var(--highlight-color);
+    font-size: 10vw;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    align-items: center;
+}
+
+
+.project-container .project{
+    height: 20vh;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #09111a24;
+    backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 2vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.project h3{
+    font-size: 6vw;
+    opacity: .8;
+    font-weight: 300;
+}
+
+@media (max-width: 430px) {
+    .project-container .project{
+        height: 10vh;
+    }
+}

@@ -1,0 +1,131 @@
+:root{
+  --theme-color: #2c0000;
+  --theme-color-3: #170000;
+  --theme-color-2: #180000;
+  --bg-color: black;
+  --text-color: #cecece;
+  --text-color-2: #3f3f3f;
+  --highlight-color:#db0606;
+}
+.italic-text{
+  font-family: "Playwrite GB S", cursive;
+  font-style: italic;
+}
+
+.main-text{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.app-wrapper{
+  color: var(--text-color);
+  overflow-y: auto;
+}
+
+.sidebar{
+  position: fixed;
+  z-index: 555;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  top: 0;
+  right: 0;
+  padding-top: 10vh;
+  transform: translateX(-100%);
+}
+
+.sidebar button{
+  position: absolute;
+  top: 20px;
+  font-size: 3vw;
+  right: 20px;
+}
+
+.sidebar_navigation{
+  /* background-color: #faf6f600; */
+  height: 10%;
+  font-size: 4vh;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  /* width: 100%; */
+  
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.basic-button{
+  color: var(--highlight-color);
+  border: 1px solid var(--highlight-color);
+  width: fit-content;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .3s;
+  font-weight: 400;
+  font-size: 1vw;
+  border: 1px solid var(--highlight-color);
+  text-transform: uppercase;
+  z-index: 1;
+ }
+ 
+ .basic-button::before, .basic-button::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--highlight-color);
+  transition: .3s ease;
+ }
+ 
+ .basic-button::before {
+  top: -1em;
+  left: -1em;
+ }
+ 
+ .basic-button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+ }
+ 
+ .basic-button:hover::before, .basic-button:hover::after {
+  height: 410px;
+  width: 410px;
+ }
+ 
+ .basic-button:hover {
+  color: var(--text-color);
+ }
+ 
+ .basic-button:active {
+  filter: brightness(.8);
+ }
+ 
+
+ @media (max-width: 430px){
+  #circle{
+    display: none;
+  }
+  
+  .basic-button{
+    font-size: 2vw;
+  }
+
+  .basic-button::before{
+    top: -3em;
+  }
+  .basic-button::after{
+    left: 12em;
+  }
+ }

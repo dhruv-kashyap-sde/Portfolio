@@ -1,0 +1,31 @@
+.banner-container{
+    width: 100%;
+    background-color:var(--bg-color);
+    overflow: hidden;
+    padding-bottom: 3vh;
+}
+
+.banner-heading{
+    padding: 2vh 3vw;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.banner-heading span:nth-child(1){
+    font-size: 3rem;
+    color: var(--highlight-color);
+}
+
+.banner-heading hr{
+    margin: 10px 0;
+}
+
+.banner-icons{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+    font-size: 3rem;
+    color: var(--text-color-2);
+    transform: translateX(-100%);
+}
