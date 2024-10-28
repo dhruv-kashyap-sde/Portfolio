@@ -1,8 +1,15 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio repository is a comprehensive display of my web development expertise, particularly in the MERN Stack, which includes MongoDB, Express.js, React, and Node.js. It serves as a testament to my ability to build full-stack applications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Design**: Browse through various sections to know about me and my projects.
+- **Smooth Animations**: Each design have soothing animations that visualizes minimalistic and proffesional tone.
+- **Contact Form**: Reach out to me for inquiries.
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Three.js**: For creating 3D visualizations.
+- **CSS**: For styling the website.
