@@ -8,7 +8,6 @@ const FooterAnimation = () => {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.footer-container',
-                markers: true,
                 start: 'top 70%',
                 end: '40% 70%',
                 scrub:1
