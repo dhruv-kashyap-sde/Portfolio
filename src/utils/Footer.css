@@ -1,0 +1,46 @@
+.footer-container{
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(360deg, var(--theme-color) , var(--theme-color-2) 40%, black);    
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-links, .box-follow{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-links a{
+    text-decoration: none;
+    color: var(--text-color);
+    border-bottom: 1px solid transparent;
+}
+
+.box-links a:hover{
+    color: var(--highlight-color);
+    border-bottom: 1px solid var(--highlight-color);
+    transition: .2s ease;
+}
+
+.box-logo{
+    width: 40%;
+    text-align: center;
+}
+
+.box-follow{
+    font-size: 3vw;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.box-follow i:hover {
+    color: var(--highlight-color);
+    cursor: pointer;
+}
