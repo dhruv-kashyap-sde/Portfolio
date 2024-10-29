@@ -7,6 +7,7 @@ import AboutSection from './components/AboutSection/AboutSection'
 import MouseFollower from './utils/MouseFollower'
 import SmoothScrolling from './utils/SmoothScrolling'
 import ContactSection from './components/ContactSection/ContactSection'
+import Footer from './utils/Footer'
 
 const App = () => {
   const [visible, setVisible] = useState(true);
@@ -28,6 +29,7 @@ const App = () => {
         <ProjectSection/>
         <AboutSection/>
         <ContactSection/>
+        <Footer/>
       </SmoothScrolling>
     </div>
   )
