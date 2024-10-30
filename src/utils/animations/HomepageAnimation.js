@@ -39,27 +39,15 @@ const HomepageAnimation = () => {
             ease: "power4.out",
         })
 
-        let tl2 = gsap.timeline({
-            scrollTrigger: {
-                trigger: ".banner-container",
-                scroller: "body",
-                scrub:2,
-                // markers:true,
-                start:"top 80%",
-                end: "top 50%"
-
+        gsap.from(
+            ".banner-icons",
+            {
+              transform: "translateX(0%)",
+              duration:10,
+              ease:'linear',
+              repeat:-1,
             }
-        })
-        tl2.from(".banner-heading", {
-            y:200,
-            duration:2,
-            ease: "power4.out",
-        })
-
-        tl2.from(".banner-icons", {
-            opacity:0,
-            duration:1
-        })
+        );
         
     })
     

@@ -11,14 +11,11 @@ import Footer from './utils/Footer'
 import Sidebar from './components/Sidebar/Sidebar'
 
 const App = () => {
-  const [visible, setVisible] = useState(true);
   return (
     <div className='app-wrapper'>
       <SmoothScrolling>
         <MouseFollower/>
-        {visible &&
           <Sidebar />
-        }
         <HeroSection/>
         <ProjectSection/>
         <AboutSection/>

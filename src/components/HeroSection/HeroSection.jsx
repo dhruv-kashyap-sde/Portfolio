@@ -5,10 +5,16 @@ import ID_card from "../ID_card/ID_card";
 import HomepageAnimation from "../../utils/animations/HomepageAnimation";
 import Semicircle from "./Semicircle";
 import SkillBanner from "./SkillBanner";
+import gsap from "gsap";
 
 const HeroSection = () => {
 
-
+  const openSidebar = () => {
+    gsap.to('.sidebar',{
+      transform:'translateX(0%)',
+    })
+  }
+  
   HomepageAnimation();
   return (
     <>
@@ -96,7 +102,7 @@ const HeroSection = () => {
               </button>
             </a>
           </div>
-          <button className="hamburger basic-button"><i class="ri-menu-4-fill"></i></button>
+          <button onClick={openSidebar} className="hamburger basic-button"><i class="ri-menu-4-fill"></i></button>
         </nav>
         <div className="hero-section-left">
           <div className="line1 line-container">

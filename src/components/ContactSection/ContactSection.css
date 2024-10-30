@@ -5,10 +5,10 @@
     flex-direction: column;
 }
 .marquee-text-container{
+    width: 100%;
     overflow: hidden;
     position: relative;
     display: flex;
-    width: 100%;
     cursor: default;
     text-transform: uppercase;
 }
