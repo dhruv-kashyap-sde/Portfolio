@@ -53,3 +53,18 @@
 .footer-text span{
     margin: 0 10px;
 }
+
+@media (max-width : 430px) {
+    .footer-box-container{
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .box-links, .box-follow, .box-logo{
+        width: 100%;
+    }
+
+    .box-follow{
+        font-size: 5vw;
+    }
+}
