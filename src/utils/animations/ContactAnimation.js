@@ -13,6 +13,31 @@ const ContactAnimation = () => {
         repeat:-1,
       }
     );
+
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.form-container',
+        start: 'top 70%',
+        end: 'top center',
+        scrub: 2,
+      }
+    })
+    
+    tl.from('.form-heading', {
+      x: -300,
+      opacity: 0,
+      duration: 1,
+      ease: 'power3.in'
+    })
+    
+    tl.from('.form-container form', {
+      x: 300,
+      opacity: 0,
+      duration: 1,
+      ease: 'power3.in',
+      delay: -1,
+    })
+    
   });
 };
 
