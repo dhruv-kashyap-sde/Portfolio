@@ -1,0 +1,31 @@
+.sidebar{
+    position: fixed;
+    z-index: 555;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    top: 0;
+    right: 0;
+    padding-top: 10vh;
+  }
+  
+  .sidebar button{
+    position: absolute;
+    top: 20px;
+    font-size: 3vw;
+    right: 20px;
+  }
+  
+  .sidebar_navigation{
+    /* background-color: #faf6f600; */
+    height: 10%;
+    font-size: 4vh;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* width: 100%; */
+    
+  }
+  

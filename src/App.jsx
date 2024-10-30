@@ -8,6 +8,7 @@ import MouseFollower from './utils/MouseFollower'
 import SmoothScrolling from './utils/SmoothScrolling'
 import ContactSection from './components/ContactSection/ContactSection'
 import Footer from './utils/Footer'
+import Sidebar from './components/Sidebar/Sidebar'
 
 const App = () => {
   const [visible, setVisible] = useState(true);
@@ -15,17 +16,10 @@ const App = () => {
     <div className='app-wrapper'>
       <SmoothScrolling>
         <MouseFollower/>
-        <HeroSection/>
         {visible &&
-          <>
-            <div className="sidebar main-text">
-              <button className='basic-button'><i class="ri-close-large-line"></i></button>
-              <div className="sidebar_navigation">Home</div>
-              <div className="sidebar_navigation">About</div>
-              <div className="sidebar_navigation">Projects</div>
-              <div className="sidebar_navigation">Contact</div>
-            </div>
-          </>}
+          <Sidebar />
+        }
+        <HeroSection/>
         <ProjectSection/>
         <AboutSection/>
         <ContactSection/>
