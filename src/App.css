@@ -57,7 +57,7 @@
   cursor: pointer;
 }
 
-.basic-button{
+.basic-button {
   color: var(--highlight-color);
   border: 1px solid var(--highlight-color);
   width: fit-content;
@@ -73,46 +73,58 @@
   border: 1px solid var(--highlight-color);
   text-transform: uppercase;
   z-index: 1;
- }
- 
- .basic-button::before, .basic-button::after {
+}
+
+.basic-button::before, .basic-button::after {
   content: '';
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 1em;
+  height: 1em;
   transform: translate(-50%, -50%);
   position: absolute;
   border-radius: 50%;
   z-index: -1;
   background-color: var(--highlight-color);
   transition: .3s ease;
- }
- 
- .basic-button::before {
+}
+
+.basic-button::before {
   top: -1em;
   left: -1em;
- }
- 
- .basic-button::after {
+}
+
+.basic-button::after {
   left: calc(100% + 1em);
   top: calc(100% + 1em);
- }
- 
- .basic-button:hover::before, .basic-button:hover::after {
+}
+
+.basic-button:hover::before, .basic-button:hover::after {
   height: 410px;
   width: 410px;
- }
- 
- .basic-button:hover {
-  color: var(--text-color);
- }
- 
- .basic-button:active {
-  filter: brightness(.8);
- }
- 
+}
 
- @media (max-width: 430px){
+.basic-button:hover {
+  color: var(--text-color);
+}
+
+.basic-button:active {
+  filter: brightness(.8);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .basic-button {
+    font-size: 2vw;
+    padding: 0.6em 1.5em;
+  }
+}
+
+@media (max-width: 430px){
+  .basic-button {
+    font-size: 3vw;
+    padding: 0.4em 1.3em;
+  }
+
   #circle{
     display: none;
   }
