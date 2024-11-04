@@ -26,18 +26,17 @@ const AboutAnimation = () => {
             duration:2
         })
 
+        tl.from('.main4 .right img', {
+            opacity:0,
+            duration:1.5,
+            delay:-1.5,
+        })
+
         tl.from('.heading-container .line2 p', {
             transform:'translateX(100%)',
             opacity:0,
             duration:2,
             ease:'power3.out'
-        })
-
-        tl.from('.main4 .right img', {
-            opacity:0,
-            duration:1.5,
-            // delay:-.3,
-            duration:1.5
         })
     })
 }
