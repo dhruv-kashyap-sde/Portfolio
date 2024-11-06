@@ -51,6 +51,11 @@
     gap: 3vh;
 }
 
+.form-container  a{
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
 .form-container form input, textarea{
     padding: 2vh 0;
     background-color: transparent;

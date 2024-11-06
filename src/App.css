@@ -103,7 +103,7 @@
   width: 410px;
 }
 
-.basic-button:hover {
+.basic-button:hover, .basic-button a i:hover {
   color: var(--text-color);
 }
 

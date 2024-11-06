@@ -1,0 +1,45 @@
+.about-page-container{
+    /* height: 100vh; */
+    background-color: var(--bg-color);
+    background: radial-gradient(circle, var(--theme-color) 0%, var(--bg-color) 47%, var(--bg-color) 100%);
+    padding: 5vh;
+}
+
+.about-heading{
+    padding: 10px;
+    line-height: 1.2;
+}
+
+.about-heading h3{
+    font-size:4vw;
+    color: var(--highlight-color);
+}
+
+.about-heading h1{
+    font-size:10vw;
+    font-weight: 500;
+}
+.about-line-container h1{
+    text-align: end;
+}
+.about-line-container h1:nth-child(1){
+    width: 10%;
+}
+.about-line-container h1:nth-child(2){
+    width: 60%;
+}
+.about-line-container h1 span{
+    color: var(--highlight-color);
+}
+
+.about-body{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.about-body p{
+    width: 50%;
+}

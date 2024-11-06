@@ -6,7 +6,7 @@ import ContactAnimation from "../../utils/animations/ContactAnimation";
 const ContactSection = () => {
   ContactAnimation();
   return (
-    <div className="main5">
+    <div id="contact" className="main5">
       <div className="marquee-text-container main-text">
         <div className="marquee-text">
           <p> Say Hello! &nbsp;</p>
@@ -24,6 +24,7 @@ const ContactSection = () => {
       <div className="form-container">
         <div className="form-heading">
           <p className="main-text">Contact <span className="italic-text">Me</span></p>
+          <button className="basic-button">Download&nbsp; Resume</button>
         </div>
         <form action="">
           <input type="text" placeholder="Full Name"/>

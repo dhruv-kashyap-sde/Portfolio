@@ -9,17 +9,19 @@ import SmoothScrolling from './utils/SmoothScrolling'
 import ContactSection from './components/ContactSection/ContactSection'
 import Footer from './utils/Footer'
 import Sidebar from './components/Sidebar/Sidebar'
+import AboutPage from './Pages/About/AboutPage'
 
 const App = () => {
   return (
     <div className='app-wrapper'>
       <SmoothScrolling>
         <MouseFollower/>
-          <Sidebar />
-        <HeroSection/>
+         <Sidebar />
+        {/* <HeroSection/>
         <ProjectSection/>
         <AboutSection/>
-        <ContactSection/>
+        <ContactSection/> */}
+        <AboutPage/>
         <Footer/>
       </SmoothScrolling>
     </div>

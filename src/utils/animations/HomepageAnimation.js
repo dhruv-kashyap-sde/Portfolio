@@ -21,6 +21,15 @@ const HomepageAnimation = () => {
             repeat:-1
         })
 
+        gsap.to('.scroll-down-icon', {
+            y: 20,
+            repeat: -1,
+            yoyo: true,
+            ease: 'power3.inOut',
+            duration: 1.5,
+            opacity:0
+        });
+
         gsap.from(".line-container span", {
             opacity:0,
             transform:"translateY(100%)",

@@ -6,7 +6,7 @@ const ProjectSection = () => {
 
   return (
     <>
-      <div class="main3 main-text">
+      <div id="projects" class="main3 main-text">
         <div class="project-text">
           <p>
             Recent <span className="italic-text">Projects</span>

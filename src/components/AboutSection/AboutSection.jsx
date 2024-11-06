@@ -6,7 +6,7 @@ import AboutAnimation from '../../utils/animations/AboutAnimation'
 const AboutSection = () => {
   AboutAnimation();
   return (
-    <div className='main4 main-text'>
+    <div id='about' className='main4 main-text'>
       <div className="about-semicircle-container">
         <div className="about-semicircle"></div>
       </div>
