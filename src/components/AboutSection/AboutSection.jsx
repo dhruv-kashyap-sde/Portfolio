@@ -2,6 +2,7 @@ import React from 'react'
 import './AboutSection.css'
 import Semicircle from '../HeroSection/Semicircle'
 import AboutAnimation from '../../utils/animations/AboutAnimation'
+import { Link } from 'react-router-dom'
 
 const AboutSection = () => {
   AboutAnimation();
@@ -19,7 +20,9 @@ const AboutSection = () => {
             <div className="line2">
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur blanditiis ut maiores accusamus earum odio, temporibus omnis, minima aliquam atque veniam similique magni eveniet possimus?</p>
             </div>
-            <button className='basic-button'> Know More</button>
+            <Link to={"/about"}>
+              <button className='basic-button'> Know More</button>
+            </Link> 
           </div>
         </div>
         <div className="right">

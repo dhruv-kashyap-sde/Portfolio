@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import gsap from 'gsap'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const openSidebar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
     <nav className="navbar">
     <div className="logo pointer">Dhruv Kashyap</div>
     <div className="nav-links">
-      <a href="/">
+      <Link to="/">
         <button className="animated-button main-text">
           <span class="span-mother">
             <span>H</span>
@@ -27,8 +28,8 @@ const Navbar = () => {
             <span>e</span>
           </span>
         </button>
-      </a>
-      <a href="#about">
+      </Link>
+      <Link to="/about">
         <button className="animated-button main-text">
           <span class="span-mother">
             <span>A</span>
@@ -45,8 +46,8 @@ const Navbar = () => {
             <span>t</span>
           </span>
         </button>
-      </a>
-      <a href="#projects">
+      </Link>
+      <Link to="/projects">
         <button className="animated-button main-text">
           <span class="span-mother">
             <span>P</span>
@@ -67,8 +68,8 @@ const Navbar = () => {
             <span>t</span>
           </span>
         </button>
-      </a>
-      <a href="#contact">
+      </Link>
+      <Link to="/contact">
         <button className="animated-button main-text">
           <span class="span-mother">
             <span>C</span>
@@ -89,7 +90,7 @@ const Navbar = () => {
             <span>t</span>
           </span>
         </button>
-      </a>
+      </Link>
     </div>
     <button onClick={openSidebar} className="hamburger basic-button"><i class="ri-menu-4-fill"></i></button>
   </nav>

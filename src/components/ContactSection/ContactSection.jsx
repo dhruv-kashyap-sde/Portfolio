@@ -4,6 +4,7 @@ import gsap from "gsap";
 import ContactAnimation from "../../utils/animations/ContactAnimation";
 
 const ContactSection = () => {
+  
   ContactAnimation();
   return (
     <div id="contact" className="main5">
@@ -24,7 +25,7 @@ const ContactSection = () => {
       <div className="form-container">
         <div className="form-heading">
           <p className="main-text">Contact <span className="italic-text">Me</span></p>
-          <button className="basic-button">Download&nbsp; Resume</button>
+          <a href="src\assets\Resume-Dhruv.pdf" download="Resume-Dhruv.pdf"><button className="basic-button">Download&nbsp; Resume</button></a>
         </div>
         <form action="">
           <input type="text" placeholder="Full Name"/>
