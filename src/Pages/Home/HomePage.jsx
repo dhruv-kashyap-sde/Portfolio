@@ -11,14 +11,11 @@ import SmoothScrolling from "../../utils/SmoothScrolling";
 const HomePage = () => {
   return (
     <>
-
-          <MouseFollower />
-          <Sidebar />
-          <HeroSection />
-          <ProjectSection />
-          <AboutSection />
-          <ContactSection />
-          <Footer />
+      <HeroSection />
+      <ProjectSection />
+      <AboutSection />
+      <ContactSection />
+      <Footer />
     </>
   );
 };
