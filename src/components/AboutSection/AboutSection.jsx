@@ -1,6 +1,5 @@
 import React from 'react'
 import './AboutSection.css'
-import Semicircle from '../HeroSection/Semicircle'
 import AboutAnimation from '../../utils/animations/AboutAnimation'
 import { Link } from 'react-router-dom'
 

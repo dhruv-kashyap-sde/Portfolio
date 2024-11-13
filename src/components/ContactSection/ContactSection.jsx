@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import "./ContactSection.css";
-import gsap from "gsap";
 import ContactAnimation from "../../utils/animations/ContactAnimation";
 
 const ContactSection = () => {

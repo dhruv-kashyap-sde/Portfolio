@@ -4,7 +4,6 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../utils/Footer';
 
 const AboutPage = () => {
-    console.log('jvkv');
     
   return (
     <>
