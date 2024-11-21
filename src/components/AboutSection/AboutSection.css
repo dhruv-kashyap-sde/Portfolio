@@ -43,7 +43,6 @@
 }
 
 .heading-container .line2{
-    font-size: 1.2rem;
     width: 100%;
     text-align: end;
     overflow: hidden;
@@ -116,7 +115,7 @@
     }
 
     .heading-container .line1{
-        font-size: 3.8rem;
+        /* font-size: 3.8rem; */
         display: flex;
         align-items: center;
         justify-content: center;
