@@ -34,30 +34,34 @@
 
 .about-body{
     width: 100%;
-    /* height: 50vh; */
     display: flex;
-    align-items: end;
-    justify-content: end;
-    background-color: violet;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10vh 0;
+}
+
+.about-body a{
+    text-align: center;
+    width: 50%;
 }
 
 .about-body p{
     width: 50%;
-    /* font-size: 1.1rem; */
+    font-size: 1.1rem;
     word-spacing: 4px;
     line-height: 1.4;
 }
 
 .about-education{
     margin-top: 5vh;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     width: 100%;
     height: 100vh;
     display: flex;
 }
 
 .education-left{
-    background-color: hotpink;
+    /* background-color: hotpink; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,13 +70,13 @@
 }
 
 .education-left h1{
-    background-color: violet;
+    /* background-color: violet; */
     font-weight: 400;
     text-align: center;
 }
 
 .education-right{
-    background-color: rgb(4, 155, 255);
+    /* background-color: rgb(4, 155, 255); */
     width: 55%;
     height: 100%;
 }

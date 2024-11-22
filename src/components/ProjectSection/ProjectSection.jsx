@@ -14,9 +14,9 @@ const ProjectSection = () => {
         </div>
         <div class="project-container">
         <div className="project">
-            <h3>Project Title</h3>
+            <h3>CodeQuest</h3>
             <p>
-              2021
+              2024
             </p>
         </div>
         <div className="project">

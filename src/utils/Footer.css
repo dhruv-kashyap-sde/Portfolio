@@ -19,7 +19,7 @@
     gap: 40px;
 }
 
-.box-links a{
+.box-links a, .box-follow a{
     text-decoration: none;
     color: var(--text-color);
     border-bottom: 1px solid transparent;
@@ -38,6 +38,10 @@
 
 .box-follow{
     font-size: 3vw;
+}
+
+.box-follow i{
+    transition: 0.2s ease-in-out;
 }
 
 .box-follow i:hover {

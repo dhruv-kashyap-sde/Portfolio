@@ -2,6 +2,7 @@ import React from 'react'
 import './AboutSection.css'
 import AboutAnimation from '../../utils/animations/AboutAnimation'
 import { Link } from 'react-router-dom'
+import image from '../../assets/pfp.jpg'
 
 const AboutSection = () => {
   AboutAnimation();
@@ -17,7 +18,7 @@ const AboutSection = () => {
               <p>About <span className='italic-text'>Me</span></p>
             </div>
             <div className="line2">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur blanditiis ut maiores accusamus earum odio, temporibus omnis, minima aliquam atque veniam similique magni eveniet possimus?</p>
+              <p>Skilled and Self-taught Developer with a strong background in web application development. Skilled in JavaScript, HTML, CSS, React.js and Node.js and DSA with Java. Committed to creating and deploying innovative and scalable web and mobile solutions.</p>
             </div>
             <Link to={"/about"}>
               <button className='basic-button'> Know More</button>
@@ -25,7 +26,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="right">
-          <img src="https://i.pinimg.com/736x/58/3d/20/583d20fbb0135c5cf2c6719bce06921a.jpg" alt="" />
+          <img src={image} alt="" />
         </div>
       </div>
     </div>

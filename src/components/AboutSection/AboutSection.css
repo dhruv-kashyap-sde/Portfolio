@@ -72,6 +72,7 @@
 .main4 .right img{
     height: 90%;
     width: 80%;
+    /* border-radius: 50%; */
     object-fit: cover;
 }
 

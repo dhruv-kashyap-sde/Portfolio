@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import FooterAnimation from './animations/FooterAnimation'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     FooterAnimation();
@@ -18,9 +19,11 @@ const Footer = () => {
                 <p className="logo">D K</p>
             </div>
             <div className="box-follow">
-                <i class="ri-instagram-line"></i>
-                <i class="ri-github-fill"></i>
-                <i class="ri-linkedin-box-fill"></i>
+            <a target='_blank' href="https://instagram.com/_dhruv.kashyap_/"><i class="ri-instagram-line"></i></a> 
+            <a target='_blank' href="https://github.com/dhruv-kashyap-sde"><i class="ri-github-fill"></i></a> 
+            <a target='_blank' href="https://www.linkedin.com/in/dhruv-kashyap-a5a006250"><i class="ri-linkedin-box-fill"></i></a> 
+                              
+                <i class=""></i>
             </div>
         </div>
         <div className="main-text footer-bottom">

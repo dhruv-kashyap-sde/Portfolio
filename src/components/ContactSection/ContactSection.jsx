@@ -24,7 +24,6 @@ const ContactSection = () => {
       <div className="form-container">
         <div className="form-heading">
           <p className="main-text">Contact <span className="italic-text">Me</span></p>
-          <a href="src\assets\Resume-Dhruv.pdf" download="Resume-Dhruv.pdf"><button className="basic-button">Download&nbsp; Resume</button></a>
         </div>
         <form action="">
           <input type="text" placeholder="Full Name"/>
