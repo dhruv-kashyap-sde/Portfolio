@@ -1,6 +1,5 @@
 .main5{
     display: flex;
-    /* background-image: linear-gradient(360deg, var(--theme-color) , var(--theme-color-2) 40%, black);     */
     background-color: var(--bg-color);
     flex-direction: column;
 }
@@ -42,6 +41,15 @@
 .form-heading span{
     color: var(--highlight-color);
     font-weight: 800;
+}
+
+.loader-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .form-container form{
     width: 50%;
