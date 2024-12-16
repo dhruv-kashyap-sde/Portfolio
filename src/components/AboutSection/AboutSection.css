@@ -34,7 +34,7 @@
 }
 
 .heading-container .line1{
-    font-size: 6rem;
+    font-size: 6vw;
     overflow: hidden;
 }
 
@@ -66,7 +66,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .main4 .right img{
@@ -96,7 +95,7 @@
 }
 
 @media (max-width : 470px) {
-    .left-right-container{
+    .main4 .left-right-container{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -116,7 +115,6 @@
     }
 
     .heading-container .line1{
-        /* font-size: 3.8rem; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -125,6 +123,7 @@
 
     .heading-container .line1 p{
         transform: translateY(-300%);
+        font-size: 15vw;
     }
 
     .heading-container .line2{
@@ -134,5 +133,12 @@
 
     .heading-container .line2 p{
         width: 100%;
+    }
+    .main4 .right{
+        width: 100%;
+    }
+    .main4 .left-right-container .right img{
+        width: 100%;
+        object-fit: contain;
     }
 }

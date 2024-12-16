@@ -69,28 +69,6 @@ const Navbar = () => {
           </span>
         </button>
       </Link>
-      <Link to="/contact">
-        <button className="animated-button main-text">
-          <span class="span-mother">
-            <span>C</span>
-            <span>o</span>
-            <span>n</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>t</span>
-          </span>
-          <span class="span-mother2">
-            <span>C</span>
-            <span>o</span>
-            <span>n</span>
-            <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>t</span>
-          </span>
-        </button>
-      </Link>
     </div>
     <button onClick={openSidebar} className="hamburger basic-button"><i class="ri-menu-4-fill"></i></button>
   </nav>

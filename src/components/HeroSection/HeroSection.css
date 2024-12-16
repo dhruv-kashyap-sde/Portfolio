@@ -60,7 +60,6 @@
   display: flex;
   align-items: end;
   justify-content: end;
-  
 }
 
 
@@ -70,6 +69,10 @@
   justify-content: center;
   gap: 3vh;
  } 
+ 
+ .hero-section-right{
+  display: none;
+ }
 
  .line-container p{
   font-size:2.7rem;

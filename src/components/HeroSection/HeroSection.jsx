@@ -9,8 +9,6 @@ import gsap from "gsap";
 import Navbar from "../Navbar";
 
 const HeroSection = () => {
-
-  
   HomepageAnimation();
   return (
     <>
@@ -18,7 +16,6 @@ const HeroSection = () => {
         <Semicircle />
         <Navbar/>
         <div id="home" className="left-right-container">
-
           <div className="hero-section-left">
             <div className="line1 line-container">
               <span className="italic-text">I'm a</span>
