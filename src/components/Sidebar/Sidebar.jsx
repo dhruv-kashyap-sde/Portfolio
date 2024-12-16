@@ -1,6 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import gsap from 'gsap'
+import { useNavigate } from 'react-router-dom'
 
 const Sidebar = () => {
     const closeSidebar = () => {
@@ -8,14 +9,17 @@ const Sidebar = () => {
           transform:'translateX(100%)',
       })
     }
-
+    const navigate = useNavigate();
+    const refer = (path) => {
+      navigate(path);
+      closeSidebar();
+    }
   return (
     <div className="sidebar main-text">
         <button onClick={closeSidebar} className='basic-button'><i class="ri-close-large-line"></i></button>
-        <div className="sidebar_navigation">Home</div>
-        <div className="sidebar_navigation">About</div>
-        <div className="sidebar_navigation">Projects</div>
-        <div className="sidebar_navigation">Contact</div>
+        <div onClick={() => refer("/")} className="sidebar_navigation">Home</div>
+        <div onClick={() => refer("/about")} className="sidebar_navigation">About</div>
+        <div onClick={() => refer("/projects")} className="sidebar_navigation">Projects</div>
   </div>
   )
 }

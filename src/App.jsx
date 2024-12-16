@@ -6,17 +6,19 @@ import AboutPage from './Pages/About/AboutPage'
 import HomePage from './Pages/Home/HomePage';
 import Sidebar from './components/Sidebar/Sidebar';
 import MouseFollower from './utils/MouseFollower';
+import Projectpage from './Pages/Projects/Projectpage';
 
 const App = () => {
   return (
     <div className="app-wrapper">
       <SmoothScrolling>  
       <MouseFollower />
-      <Sidebar />
       <Router>
+        <Sidebar />
         <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<Projectpage/>} />
         </Routes>
       </Router>
       </SmoothScrolling>

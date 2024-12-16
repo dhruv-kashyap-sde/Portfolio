@@ -1,0 +1,8 @@
+.project-page-container{
+    height: 100vh;
+    padding: 2rem 3rem;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(180deg, var(--theme-color) , var(--theme-color-2) 40%, black);    
+
+}
