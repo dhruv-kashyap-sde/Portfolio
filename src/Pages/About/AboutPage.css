@@ -43,6 +43,7 @@
 .about-body a{
     text-align: center;
     width: 50%;
+    margin: 20px;
 }
 
 .about-body p{
@@ -173,4 +174,16 @@
     color: #4f5b66;
   }
   
-  
+  @media (max-width: 450px) {
+    .about-body{
+      flex-direction: column;
+      margin-top: 0;
+    }
+    .about-body p{
+      width: 100%;
+    }
+
+    .about-education{
+      flex-direction: column;
+    }
+  }

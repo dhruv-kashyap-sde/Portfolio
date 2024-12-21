@@ -75,6 +75,9 @@
   z-index: 1;
 }
 
+hr{
+  border: 1px solid var(--text-color-2);
+}
 .basic-button::before, .basic-button::after {
   content: '';
   display: block;

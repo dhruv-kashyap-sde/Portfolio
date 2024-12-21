@@ -26,7 +26,7 @@ const ProjectSectionAnimation = () => {
             y:600,
             duration:3,
             ease:'power3.out',
-            stagger:2
+            stagger:1
         })
     })
     

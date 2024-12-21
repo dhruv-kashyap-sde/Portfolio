@@ -24,20 +24,20 @@ const AboutPage = () => {
             <button className="basic-button">Download&nbsp; Resume</button>
           </a>
           <p>
-            As an enthusiastic{" "}
+            As an enthusiastic
             <span className="italic-text">MERN stack developer</span>, my
             expertise is in crafting animated and contemporary websites and web
             applications that engage users and elevate their online experience.
-            Grounded in{" "}
+            Grounded in
             <span className="italic-text">
               MongoDB, Express.js, React, and Node.js
             </span>
-            , I excel in bringing to life innovative initiatives such as{" "}
+            , I excel in bringing to life innovative initiatives such as
             <span className="italic-text">CodeQuest</span>. My skill set is
             centered around creating dynamic user interfaces, integrating
             seamless backend systems, and implementing interactive elements that
             ensure each application is both operational and aesthetically
-            pleasing. My commitment lies in constructing sturdy platforms and{" "}
+            pleasing. My commitment lies in constructing sturdy platforms and
             <span className="italic-text">
               developing captivating web solutions
             </span>

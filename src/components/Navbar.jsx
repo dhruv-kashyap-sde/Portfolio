@@ -13,22 +13,27 @@ const Navbar = () => {
     <nav className="navbar">
     <div className="logo pointer">Dhruv Kashyap</div>
     <div className="nav-links">
-      <Link to="/">
+      <a href="src\assets\Resume-Dhruv.pdf" download="Resume-Dhruv.pdf">
         <button className="animated-button main-text">
           <span class="span-mother">
-            <span>H</span>
-            <span>o</span>
+            <span>R</span>
+            <span>e</span>
+            <span>s</span>
+            <span>u</span>
             <span>m</span>
             <span>e</span>
           </span>
           <span class="span-mother2">
-            <span>H</span>
-            <span>o</span>
+            <span>R</span>
+            <span>e</span>
+            <span>s</span>
+            <span>u</span>
             <span>m</span>
             <span>e</span>
           </span>
         </button>
-      </Link>
+      </a>
+
       <Link to="/about">
         <button className="animated-button main-text">
           <span class="span-mother">
@@ -47,7 +52,7 @@ const Navbar = () => {
           </span>
         </button>
       </Link>
-      <Link to="/projects">
+      <a href="#projects">
         <button className="animated-button main-text">
           <span class="span-mother">
             <span>P</span>
@@ -57,6 +62,7 @@ const Navbar = () => {
             <span>e</span>
             <span>c</span>
             <span>t</span>
+            <span>s</span>
           </span>
           <span class="span-mother2">
             <span>P</span>
@@ -66,9 +72,10 @@ const Navbar = () => {
             <span>e</span>
             <span>c</span>
             <span>t</span>
+            <span>s</span>
           </span>
         </button>
-      </Link>
+      </a>
     </div>
     <button onClick={openSidebar} className="hamburger basic-button"><i class="ri-menu-4-fill"></i></button>
   </nav>

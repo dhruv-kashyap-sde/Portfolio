@@ -83,6 +83,10 @@
   transition: 0.8s;
 }
 
+.animated-button .span-mother span:nth-child(8) {
+  transition: 0.9s;
+}
+
 .animated-button .span-mother2 {
   display: flex;
   position: absolute;
@@ -123,4 +127,8 @@
 
 .animated-button .span-mother2 span:nth-child(7) {
   transition: 0.8s;
+}
+
+.animated-button .span-mother2 span:nth-child(8) {
+  transition: 0.9s;
 }
