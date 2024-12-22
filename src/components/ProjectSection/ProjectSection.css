@@ -53,4 +53,8 @@
     .project-container .project{
         height: 10vh;
     }
+
+    .project-container{
+        padding: 0 20px;
+    }
 }

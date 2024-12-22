@@ -88,12 +88,14 @@
 
     .form-container .form-heading{
         width: 100%;
-        /* height: 10vh; */
     }
 
     .form-container form{
         width: 90%;
+    }
 
+    .form-container .form-heading p{
+        font-size: 10vw;
     }
 
     .form-container form input, textarea{

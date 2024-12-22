@@ -26,7 +26,6 @@ const Footer = () => {
         <div className="main-text footer-bottom">
             <p className='footer-text'>
                 <span><i class="ri-copyright-line"></i> 2025</span>
-                <span>Dhruv Kashyap</span>
                 <span>All Rights Reserved.</span>
             </p>
         </div>

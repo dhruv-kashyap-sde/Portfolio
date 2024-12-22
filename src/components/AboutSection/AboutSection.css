@@ -5,7 +5,7 @@
     /* padding: 40px; */
     position: relative;
     color: white;
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 100vh;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .left .heading-container{
-    height: 60%;
+    height: 65%;
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -69,7 +69,10 @@
 }
 
 .main4 .right img{
+    position: relative;
     height: 90%;
+    opacity: 0;
+    left: 500px;
     width: 80%;
     /* border-radius: 50%; */
     object-fit: cover;
@@ -123,7 +126,7 @@
 
     .heading-container .line1 p{
         transform: translateY(-300%);
-        font-size: 15vw;
+        font-size: 10vw;
     }
 
     .heading-container .line2{

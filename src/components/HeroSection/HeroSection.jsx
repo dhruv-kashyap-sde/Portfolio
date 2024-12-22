@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "./HeroSection.css";
 import "./Semicircle.css";
-import ID_card from "../ID_card/ID_card";
 import HomepageAnimation from "../../utils/animations/HomepageAnimation";
 import Semicircle from "./Semicircle";
 import SkillBanner from "./SkillBanner";
-import gsap from "gsap";
 import Navbar from "../Navbar";
 
 const HeroSection = () => {

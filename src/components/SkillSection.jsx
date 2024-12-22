@@ -1,7 +1,9 @@
 import React from 'react'
 import './SkillSection.css'
+import SkillAnimation from '../utils/animations/SkillAnimation'
 
 const SkillSection = () => {
+  SkillAnimation();
   return (
     <div className=" main-text skills-container">
       <div className="skills-box">
@@ -25,7 +27,7 @@ const SkillSection = () => {
         </ul>
       </div>
       <hr className='divider' />
-      <div className="skills-box">
+      <div className="skills-box-2">
         <h2>Backend Development</h2>
         <ul>
           <li>

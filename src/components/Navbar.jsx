@@ -11,7 +11,7 @@ const Navbar = () => {
   }
   return (
     <nav className="navbar">
-    <div className="logo pointer">Dhruv Kashyap</div>
+    <Link to="/" className="logo pointer">Dhruv Kashyap</Link>
     <div className="nav-links">
       <a href="src\assets\Resume-Dhruv.pdf" download="Resume-Dhruv.pdf">
         <button className="animated-button main-text">

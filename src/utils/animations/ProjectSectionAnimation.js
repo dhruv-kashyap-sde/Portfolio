@@ -28,6 +28,12 @@ const ProjectSectionAnimation = () => {
             ease:'power3.out',
             stagger:1
         })
+
+        tl.from('.project-container .basic-button', {
+            y:400,
+            duration:1,
+            ease:'power1.out',
+        })
     })
     
 }
