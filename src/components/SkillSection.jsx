@@ -6,7 +6,7 @@ const SkillSection = () => {
   SkillAnimation();
   return (
     <div className=" main-text skills-container">
-      <div className="skills-box">
+      <div className="skills-box italic-text">
         <h2>Frontend Development</h2>
         <ul>
           <li>
@@ -27,7 +27,7 @@ const SkillSection = () => {
         </ul>
       </div>
       <hr className='divider' />
-      <div className="skills-box-2">
+      <div className="skills-box-2 italic-text">
         <h2>Backend Development</h2>
         <ul>
           <li>

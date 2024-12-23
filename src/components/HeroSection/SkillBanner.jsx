@@ -34,24 +34,24 @@ const SkillBanner = () => {
   return (
     <div className="banner-container">
         <div className="banner-icons">
-            <i class="ri-html5-fill"></i>
-            <i class="ri-css3-fill"></i>
-            <i class="ri-javascript-fill"></i>
+            <i className="ri-html5-fill"></i>
+            <i className="ri-css3-fill"></i>
+            <i className="ri-javascript-fill"></i>
             <img width="48" height="48" src="https://img.icons8.com/color/48/express-js.png" alt="express-js"/>
-            <i class="ri-database-2-fill"></i>
-            <i class="ri-reactjs-fill"></i>
-            <i class="ri-nodejs-fill"></i>
-            <i class="ri-java-fill"></i>
+            <i className="ri-database-2-fill"></i>
+            <i className="ri-reactjs-fill"></i>
+            <i className="ri-nodejs-fill"></i>
+            <i className="ri-java-fill"></i>
         </div>
         <div className="banner-icons">
-            <i class="ri-html5-fill"></i>
-            <i class="ri-css3-fill"></i>
-            <i class="ri-javascript-fill"></i>
+            <i className="ri-html5-fill"></i>
+            <i className="ri-css3-fill"></i>
+            <i className="ri-javascript-fill"></i>
             <img width="48" height="48" src="https://img.icons8.com/color/48/express-js.png" alt="express-js"/>
-            <i class="ri-database-2-fill"></i>
-            <i class="ri-reactjs-fill"></i>
-            <i class="ri-nodejs-fill"></i>
-            <i class="ri-java-fill"></i>
+            <i className="ri-database-2-fill"></i>
+            <i className="ri-reactjs-fill"></i>
+            <i className="ri-nodejs-fill"></i>
+            <i className="ri-java-fill"></i>
         </div>
     </div>
   )

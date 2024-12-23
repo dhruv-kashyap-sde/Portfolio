@@ -1,6 +1,6 @@
 .semicircle-container{
-    height: calc(100vh - 2rem);
-    width: calc(100vw - 6rem);
+    height: calc(100vh - 1rem);
+    width: calc(100vw - 2rem);
     position: absolute;
     top: -50%;
     display: flex;
@@ -13,4 +13,12 @@
     width: 30rem;
     border-radius: 50%;
     border: 1px solid #6b6060;
+}
+
+@media (max-width: 450px) {
+    .semicircle{
+        height: calc(50vh - 1rem);
+        width: calc(50vh - 2rem);
+    }
+    
 }

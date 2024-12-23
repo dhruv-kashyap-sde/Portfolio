@@ -19,7 +19,6 @@
 .skills-box h2 {
   font-size: 1.8rem;
   width: 100%;
-  border-bottom: 1px solid gray;
   margin-bottom: 10px;
   text-align: center;
   font-weight: 400;
@@ -71,7 +70,6 @@
 .skills-box-2 h2 {
   font-size: 1.8rem;
   width: 100%;
-  border-bottom: 1px solid gray;
   margin-bottom: 10px;
   font-weight: 400;
   color: var(--highlight-color);

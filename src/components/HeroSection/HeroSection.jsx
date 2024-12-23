@@ -31,7 +31,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="hero-section-right">
-            <p className="scroll-down-icon"><i class="ri-arrow-down-double-line "></i></p>
+            <p className="scroll-down-icon"><i className="ri-arrow-down-double-line "></i></p>
           </div>
         </div>
 

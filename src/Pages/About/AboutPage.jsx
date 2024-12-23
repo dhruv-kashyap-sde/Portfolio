@@ -51,54 +51,54 @@ const AboutPage = () => {
             <h1>My <span className='italic-text'>Journey</span></h1>
           </div>
           <div className="education-right">
-          <div class="rb-container">
-              <ul class="rb main-text">
-                <li class="rb-item" ng-repeat="itembx">
-                  <div class="italic-text timestamp">
+          <div className="rb-container">
+              <ul className="rb main-text">
+                <li className="rb-item" ng-repeat="itembx">
+                  <div className="italic-text timestamp">
                     September 2023
                   </div>
-                  <div class="item-title">
+                  <div className="item-title">
                     Created CodeQuest 
                   </div>
                 </li>
-                <li class="rb-item" ng-repeat="itembx">
-                  <div class="italic-text timestamp">
+                <li className="rb-item" ng-repeat="itembx">
+                  <div className="italic-text timestamp">
                     April 2023
                   </div>
-                  <div class="item-title">
+                  <div className="item-title">
                     Created Minor Web Projects 
                   </div>
                 </li>
-                <li class="rb-item" ng-repeat="itembx">
-                  <div class="italic-text timestamp">
+                <li className="rb-item" ng-repeat="itembx">
+                  <div className="italic-text timestamp">
                     October 2022
                   </div>
-                  <div class="item-title">
+                  <div className="item-title">
                     Started learning Web Development
                   </div>
                 </li>
-                <li class="rb-item" ng-repeat="itembx">
-                  <div class="italic-text timestamp">
+                <li className="rb-item" ng-repeat="itembx">
+                  <div className="italic-text timestamp">
                     May 2021
                   </div>
-                  <div class="item-title">
+                  <div className="item-title">
                     Persuing B.Tech in Computer Science and Engineering in A.K.T.U 
                   </div>
                 </li>
 
-                <li class="rb-item" ng-repeat="itembx">
-                  <div class="italic-text timestamp">
+                <li className="rb-item" ng-repeat="itembx">
+                  <div className="italic-text timestamp">
                     March 2021
                   </div>
-                  <div class="item-title">
+                  <div className="item-title">
                     Completed 12th Standard from Tiny Tots College
                   </div>
                 </li>
-                <li class="rb-item" ng-repeat="itembx">
-                  <div class="italic-text timestamp">
+                <li className="rb-item" ng-repeat="itembx">
+                  <div className="italic-text timestamp">
                     March 2019
                   </div>
-                  <div class="item-title">
+                  <div className="item-title">
                     Completed 10th Standard from Tiny Tots College
                   </div>
                 </li>

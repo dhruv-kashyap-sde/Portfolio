@@ -12,17 +12,11 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
-    "@react-three/drei": "^9.114.6",
-    "@react-three/fiber": "^8.17.10",
-    "@react-three/rapier": "^1.5.0",
     "@studio-freight/lenis": "^1.0.42",
     "gsap": "^3.12.5",
-    "leva": "^0.9.35",
-    "meshline": "^3.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.28.0",
-    "three": "^0.169.0"
+    "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

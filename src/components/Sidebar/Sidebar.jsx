@@ -16,7 +16,7 @@ const Sidebar = () => {
     }
   return (
     <div className="sidebar main-text">
-        <button onClick={closeSidebar} className='basic-button'><i class="ri-close-large-line"></i></button>
+        <button onClick={closeSidebar} className='basic-button'><i className="ri-close-large-line"></i></button>
         <div onClick={() => refer("/")} className="sidebar_navigation">Home</div>
         <div onClick={() => refer("/about")} className="sidebar_navigation">About</div>
         <div onClick={() => refer("/projects")} className="sidebar_navigation">Projects</div>

@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="nav-links">
       <a href="src\assets\Resume-Dhruv.pdf" download="Resume-Dhruv.pdf">
         <button className="animated-button main-text">
-          <span class="span-mother">
+          <span className="span-mother">
             <span>R</span>
             <span>e</span>
             <span>s</span>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <span>m</span>
             <span>e</span>
           </span>
-          <span class="span-mother2">
+          <span className="span-mother2">
             <span>R</span>
             <span>e</span>
             <span>s</span>
@@ -36,14 +36,14 @@ const Navbar = () => {
 
       <Link to="/about">
         <button className="animated-button main-text">
-          <span class="span-mother">
+          <span className="span-mother">
             <span>A</span>
             <span>b</span>
             <span>o</span>
             <span>u</span>
             <span>t</span>
           </span>
-          <span class="span-mother2">
+          <span className="span-mother2">
             <span>A</span>
             <span>b</span>
             <span>o</span>
@@ -54,7 +54,7 @@ const Navbar = () => {
       </Link>
       <a href="#projects">
         <button className="animated-button main-text">
-          <span class="span-mother">
+          <span className="span-mother">
             <span>P</span>
             <span>r</span>
             <span>o</span>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <span>t</span>
             <span>s</span>
           </span>
-          <span class="span-mother2">
+          <span className="span-mother2">
             <span>P</span>
             <span>r</span>
             <span>o</span>
@@ -77,7 +77,7 @@ const Navbar = () => {
         </button>
       </a>
     </div>
-    <button onClick={openSidebar} className="hamburger basic-button"><i class="ri-menu-4-fill"></i></button>
+    <button onClick={openSidebar} className="hamburger basic-button"><i className="ri-menu-4-fill"></i></button>
   </nav>
   )
 }
