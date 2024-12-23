@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="navbar">
     <Link to="/" className="logo pointer">Dhruv Kashyap</Link>
     <div className="nav-links">
-      <a href="src\assets\Resume-Dhruv.pdf" download="Resume-Dhruv.pdf">
+      <a href="Resume_Dhruv.pdf" download="Resume_Dhruv.pdf">
         <button className="animated-button main-text">
           <span className="span-mother">
             <span>R</span>

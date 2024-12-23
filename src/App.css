@@ -119,6 +119,11 @@ hr{
   }
 }
 
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 @media (max-width: 450px){
   .basic-button {
     font-size: 3.5vw;
