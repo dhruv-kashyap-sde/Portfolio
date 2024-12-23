@@ -12,9 +12,9 @@ function Effect() {
   const sectionRef = useRef(null);
   const imgRef = useRef(null);
   const urlStack = [
-    "https://images.unsplash.com/photo-1733103373160-003dc53ccdba?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1733591486986-2a9c1086c5d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8",
-    "https://images.unsplash.com/photo-1732823130947-ac30acee3e39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D"
+    "/src/assets/CodeQuest.png",
+    "/src/assets/ANZ.png",
+    "/src/assets/AIO.jpg",
   ];
 
   useEffect(() => {
@@ -123,7 +123,7 @@ function Effect() {
             alt="Effect Image"
             style={{
               position: "absolute",
-              width: "350px",
+              width: "500px",
               borderRadius: "10px",
               height: "350px",
               rotate: 0,
