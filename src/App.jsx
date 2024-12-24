@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<Projectpage/>} />
+          <Route path="/project" element={<Projectpage/>} />
         </Routes>
       </Router>
       </SmoothScrolling>

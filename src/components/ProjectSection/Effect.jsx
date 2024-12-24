@@ -14,6 +14,10 @@ function Effect() {
   ProjectSectionAnimation();
   const sectionRef = useRef(null);
   const imgRef = useRef(null);
+  const container1Ref = useRef(null);
+  const container2Ref = useRef(null);
+  const container3Ref = useRef(null);
+
   const urlStack = [
     image1,
     image2,
@@ -56,69 +60,80 @@ function Effect() {
     };
 
     const handleMouseEnterContainer1 = () => {
-      imgRef.current.src = urlStack[0];
-      gsap.to(imgRef.current, {
-        duration: 0.3,
-        opacity: 1,
-        ease: "power3.out",
-      });
+      if (imgRef.current) {
+        imgRef.current.src = urlStack[0];
+        gsap.to(imgRef.current, {
+          duration: 0.3,
+          opacity: 1,
+          ease: "power3.out",
+        });
+      }
     };
+
     const handleMouseEnterContainer2 = () => {
-      imgRef.current.src = urlStack[1];
-      gsap.to(imgRef.current, {
-        duration: 0.3,
-        opacity: 1,
-        ease: "power3.out",
-      });
+      if (imgRef.current) {
+        imgRef.current.src = urlStack[1];
+        gsap.to(imgRef.current, {
+          duration: 0.3,
+          opacity: 1,
+          ease: "power3.out",
+        });
+      }
     };
+
     const handleMouseEnterContainer3 = () => {
-      imgRef.current.src = urlStack[2];
-      gsap.to(imgRef.current, {
-        duration: 0.3,
-        opacity: 1,
-        ease: "power3.out",
-      });
+      if (imgRef.current) {
+        imgRef.current.src = urlStack[2];
+        gsap.to(imgRef.current, {
+          duration: 0.3,
+          opacity: 1,
+          ease: "power3.out",
+        });
+      }
     };
 
-    const container1 = document.getElementById("effect-container-1");
-    container1.addEventListener("mouseenter", handleMouseEnterContainer1);
-    const container2 = document.getElementById("effect-container-2");
-    container2.addEventListener("mouseenter", handleMouseEnterContainer2);
-    const container3 = document.getElementById("effect-container-3");
-    container3.addEventListener("mouseenter", handleMouseEnterContainer3);
+    // Add event listeners only if elements exist
+    if (sectionRef.current) {
+      sectionRef.current.addEventListener("mousemove", handleMouseMove);
+      sectionRef.current.addEventListener("mouseleave", handleMouseLeave);
+    }
 
-    sectionRef.current.addEventListener("mouseleave", handleMouseLeave);
-    sectionRef.current.addEventListener("mousemove", handleMouseMove);
+    if (container1Ref.current) {
+      container1Ref.current.addEventListener("mouseenter", handleMouseEnterContainer1);
+    }
+    if (container2Ref.current) {
+      container2Ref.current.addEventListener("mouseenter", handleMouseEnterContainer2);
+    }
+    if (container3Ref.current) {
+      container3Ref.current.addEventListener("mouseenter", handleMouseEnterContainer3);
+    }
 
+    // Cleanup function
     return () => {
-      sectionRef.current.removeEventListener("mouseleave", handleMouseLeave);
-      sectionRef.current.removeEventListener("mousemove", handleMouseMove);
-      container1.removeEventListener("mouseenter", handleMouseEnterContainer1);
-      container2.removeEventListener("mouseenter", handleMouseEnterContainer2);
-      container3.removeEventListener("mouseenter", handleMouseEnterContainer3);
+      if (sectionRef.current) {
+        sectionRef.current.removeEventListener("mousemove", handleMouseMove);
+        sectionRef.current.removeEventListener("mouseleave", handleMouseLeave);
+      }
+      if (container1Ref.current) {
+        container1Ref.current.removeEventListener("mouseenter", handleMouseEnterContainer1);
+      }
+      if (container2Ref.current) {
+        container2Ref.current.removeEventListener("mouseenter", handleMouseEnterContainer2);
+      }
+      if (container3Ref.current) {
+        container3Ref.current.removeEventListener("mouseenter", handleMouseEnterContainer3);
+      }
     };
   }, []);
 
-  const handleClickContainer1 = () => {
-    window.open("https://codequest-frontend.onrender.com/", "_blank");
-  };
-  const handleClickContainer2 = () => {
-    window.open("https://github.com/dhruv-kashyap-sde/ANZ-products", "_blank");
-  };
-  const handleClickContainer3 = () => {
-    window.open("https://github.com/dhruv-kashyap-sde/AIO_Calculator", "_blank");
-  };
-
   return (
     <>
-    <div className="project-text main-text">
-          <p>
-            Recent <span className="italic-text">Projects</span>
-          </p>
-        </div>
+      <div className="project-text main-text">
+        <p>Recent <span className="italic-text">Projects</span></p>
+      </div>
       <ProjectMouseFollower />
       <section className="effect-section main-text" ref={sectionRef}>
-        <div className="effect-container" onClick={handleClickContainer1} id="effect-container-1">
+        <div className="effect-container" ref={container1Ref} onClick={() => window.open("https://codequest-frontend.onrender.com/", "_blank")} id="effect-container-1">
           <img
             ref={imgRef}
             src=""
@@ -138,11 +153,11 @@ function Effect() {
           <h1>CodeQuest</h1>
           <p>2024</p>
         </div>
-        <div className="effect-container" onClick={handleClickContainer2} id="effect-container-2">
+        <div className="effect-container" ref={container2Ref} onClick={() => window.open("https://github.com/dhruv-kashyap-sde/ANZ-products", "_blank")} id="effect-container-2">
           <h1>ANZ PRODUCTS</h1>
           <p>2024</p>
         </div>
-        <div className="effect-container" onClick={handleClickContainer3} id="effect-container-3">
+        <div className="effect-container" ref={container3Ref} onClick={() => window.open("https://github.com/dhruv-kashyap-sde/AIO_Calculator", "_blank")} id="effect-container-3">
           <h1>AIO - Calc</h1>
           <p>2022</p>
         </div>
