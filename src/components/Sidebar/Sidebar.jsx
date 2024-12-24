@@ -2,7 +2,6 @@ import React from "react";
 import "./Sidebar.css";
 import gsap from "gsap";
 import { useNavigate } from "react-router-dom";
-import Footer from "../../utils/Footer";
 
 const Sidebar = () => {
   const closeSidebar = () => {
@@ -35,7 +34,7 @@ const Sidebar = () => {
             Resume
           </a>
         </div>
-        <div className="box-follow">
+        <div className="sidebar-box-follow">
                 <a target='_blank' href="https://instagram.com/_dhruv.kashyap_/"><i className="ri-instagram-line"></i></a> 
                 <a target='_blank' href="https://github.com/dhruv-kashyap-sde"><i className="ri-github-fill"></i></a> 
                 <a target='_blank' href="https://www.linkedin.com/in/dhruv-kashyap-a5a006250"><i className="ri-linkedin-box-fill"></i></a> 
