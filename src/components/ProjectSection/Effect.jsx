@@ -6,15 +6,18 @@ gsap.registerPlugin(ScrollTrigger);
 import ProjectMouseFollower from "./ProjectMouseFollower";
 import { Link } from "react-router-dom";
 import ProjectSectionAnimation from "../../utils/animations/ProjectSectionAnimation";
+import image1 from '../../assets/codequest.png'
+import image2 from '../../assets/anz.png'
+import image3 from '../../assets/aio.jpg'
 
 function Effect() {
   ProjectSectionAnimation();
   const sectionRef = useRef(null);
   const imgRef = useRef(null);
   const urlStack = [
-    "/src/assets/CodeQuest.png",
-    "/src/assets/ANZ.png",
-    "/src/assets/AIO.jpg",
+    image1,
+    image2,
+    image3,
   ];
 
   useEffect(() => {
@@ -140,7 +143,7 @@ function Effect() {
           <p>2024</p>
         </div>
         <div className="effect-container" onClick={handleClickContainer3} id="effect-container-3">
-          <h1>AIO</h1>
+          <h1>AIO - Calc</h1>
           <p>2022</p>
         </div>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import gsap from 'gsap'
 import { Link } from 'react-router-dom'
+import file from '../assets/Resume_Dhruv.pdf'
 
 const Navbar = () => {
   const openSidebar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
     <nav className="navbar">
     <Link to="/" className="logo pointer">Dhruv Kashyap</Link>
     <div className="nav-links">
-      <a href="Resume_Dhruv.pdf" download="Resume_Dhruv.pdf">
+      <a href={file} download={file}>
         <button className="animated-button main-text">
           <span className="span-mother">
             <span>R</span>
