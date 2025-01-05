@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sidebar.css";
 import gsap from "gsap";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
   const closeSidebar = () => {
@@ -29,15 +29,10 @@ const Sidebar = () => {
         <div onClick={() => refer("/project")} className="sidebar_navigation">
           Projects
         </div>
-        <div className="sidebar_navigation">
-          <a href="Resume_Dhruv.pdf" download="Resume_Dhruv.pdf">
-            Resume
-          </a>
-        </div>
         <div className="sidebar-box-follow">
-                <a target='_blank' href="https://instagram.com/_dhruv.kashyap_/"><i className="ri-instagram-line"></i></a> 
-                <a target='_blank' href="https://github.com/dhruv-kashyap-sde"><i className="ri-github-fill"></i></a> 
-                <a target='_blank' href="https://www.linkedin.com/in/dhruv-kashyap-a5a006250"><i className="ri-linkedin-box-fill"></i></a> 
+                <Link target='_blank' to="https://instagram.com/_dhruv.kashyap_/"><i className="ri-instagram-line"></i></Link> 
+                <Link target='_blank' to="https://github.com/dhruv-kashyap-sde"><i className="ri-github-fill"></i></Link> 
+                <Link target='_blank' to="https://www.linkedin.com/in/dhruv-kashyap-a5a006250"><i className="ri-linkedin-box-fill"></i></Link> 
             </div>
       </div>
     </>

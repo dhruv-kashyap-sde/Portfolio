@@ -78,7 +78,12 @@ const Navbar = () => {
         </button>
       </a>
     </div>
-    <button onClick={openSidebar} className="hamburger basic-button"><i className="ri-menu-4-fill"></i></button>
+    <div className="hamburger-container">
+      <div className="hamburger basic-button"><a href="Resume_Dhruv.pdf" download="Resume_Dhruv.pdf">
+            Resume
+          </a></div>
+      <button onClick={openSidebar} className="hamburger basic-button"><i className="ri-menu-4-fill"></i></button>
+    </div>
   </nav>
   )
 }

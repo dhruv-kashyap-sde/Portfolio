@@ -20,9 +20,6 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="about-body">
-          <a href="src\assets\Resume-Dhruv.pdf" download="Resume-Dhruv.pdf">
-            <button className="basic-button">Download&nbsp; Resume</button>
-          </a>
           <p>
             As an enthusiastic
             <span className="italic-text">MERN stack developer</span>, my

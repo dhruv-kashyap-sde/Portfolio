@@ -180,10 +180,15 @@
       margin-top: 0;
     }
     .about-body p{
+      margin-top: 20px;
       width: 100%;
     }
 
     .about-education{
       flex-direction: column;
+    }
+
+    ul.rb li .timestamp {
+      font-size: 3.5vw;
     }
   }
