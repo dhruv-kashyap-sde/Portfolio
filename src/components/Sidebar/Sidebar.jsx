@@ -26,7 +26,7 @@ const Sidebar = () => {
         <div onClick={() => refer("/about")} className="sidebar_navigation">
           About
         </div>
-        <div onClick={() => refer("/projects")} className="sidebar_navigation">
+        <div onClick={() => refer("/project")} className="sidebar_navigation">
           Projects
         </div>
         <div className="sidebar_navigation">

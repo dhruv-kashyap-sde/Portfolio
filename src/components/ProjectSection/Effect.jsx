@@ -162,7 +162,7 @@ function Effect() {
           <p>2022</p>
         </div>
 
-        <Link to="/project" ><button className="main-text basic-button">Show All</button></Link>
+        {/* <Link to="/project" ><button className="main-text basic-button">Show All</button></Link> */}
       </section>
     </>
   );
