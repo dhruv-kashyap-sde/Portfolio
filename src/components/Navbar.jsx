@@ -79,7 +79,7 @@ const Navbar = () => {
       </a>
     </div>
     <div className="hamburger-container">
-      <div className="hamburger basic-button"><a href="Resume_Dhruv.pdf" download="Resume_Dhruv.pdf">
+      <div className="hamburger basic-button"><a href={file} download={file}>
             Resume
           </a></div>
       <button onClick={openSidebar} className="hamburger basic-button"><i className="ri-menu-4-fill"></i></button>
