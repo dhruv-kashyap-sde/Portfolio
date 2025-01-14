@@ -153,7 +153,7 @@ function Effect() {
           <h1>CodeQuest</h1>
           <p>2024</p>
         </div>
-        <div className="effect-container" ref={container2Ref} onClick={() => window.open("https://github.com/dhruv-kashyap-sde/ANZ-products", "_blank")} id="effect-container-2">
+        <div className="effect-container" ref={container2Ref} onClick={() => window.open("https://anzproducts.onrender.com", "_blank")} id="effect-container-2">
           <h1>ANZ PRODUCTS</h1>
           <p>2024</p>
         </div>
