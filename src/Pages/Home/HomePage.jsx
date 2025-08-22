@@ -5,13 +5,15 @@ import AboutSection from "../../components/AboutSection/AboutSection";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import SkillSection from "../../components/SkillSection";
 import Effect from "../../components/ProjectSection/Effect";
+import ProjectSection from "../../components/ProjectSection/ProjectSection";
 
 const HomePage = () => {
   return (
     <>
       <HeroSection />
       <SkillSection/>
-      <Effect/>
+      {/* <Effect/> */}
+      <ProjectSection />
       <AboutSection />
       <ContactSection />
       <Footer />

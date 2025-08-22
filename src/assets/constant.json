@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Code Quest",
+    "description": "Online platform for coding competition",
+    "images": [
+      "https://res.cloudinary.com/dvqtv7k63/image/upload/v1755851705/codequest-frontend.onrender.com__gjrybp.png"
+    ],
+    "link": "https://codequest-frontend.onrender.com/",
+    "technologies": ["React", "GSAP"],
+    "year": 2024
+  },
+  {
+    "title": "Loot My Vouchers",
+    "description": "Claim free vouchers per day and save some money",
+    "images": [
+      "https://res.cloudinary.com/dvqtv7k63/image/upload/c_crop,ar_16:9/v1755853835/202ba11e-4c18-4afe-b98f-493c5488523e.png"
+    ],
+    "link": "https://lootmyvouchers.onrender.com/",
+    "technologies": ["React", "Node.js", "Express.js", "MongoDB"],
+    "year": 2025
+  },
+  {
+    "title": "ANZ Products Ltd",
+    "description": "Fullstack Client B2B website",
+    "images": [
+      "https://res.cloudinary.com/dvqtv7k63/image/upload/v1755851857/anzproducts.onrender.com__oivuik.png"
+    ],
+    "link": "https://anzproducts.onrender.com/",
+    "technologies": ["React", "Node.js", "Express.js", "MongoDB"],
+    "year": 2024
+  },
+  {
+    "title": "Moonlight Express Inc",
+    "description": "Fullstack E-commerce store for Client Business",
+    "images": [
+      "https://res.cloudinary.com/dvqtv7k63/image/upload/v1755853264/moonlight-express.onrender.com__1_vqa7uo.png"
+    ],
+    "link": "https://moonlight-express.onrender.com/",
+    "technologies": ["React", "Node.js", "Express.js", "MongoDB"],
+    "year": 2025
+  }
+]

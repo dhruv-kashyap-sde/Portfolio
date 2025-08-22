@@ -2,10 +2,11 @@
   --theme-color: #2c0000;
   --theme-color-3: #170000;
   --theme-color-2: #180000;
-  --bg-color: black;
+  --bg-color: rgb(0, 0, 0);
   --text-color: #cecece;
   --text-color-2: #3f3f3f;
-  --highlight-color:#db0606;
+  --text-color-3: #919191;
+  --highlight-color:#9e1111;
 }
 .italic-text{
   font-family: "Playwrite GB S", cursive;
