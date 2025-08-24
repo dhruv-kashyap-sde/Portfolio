@@ -50,6 +50,7 @@
 
 .heading-container .line2 p{
     width: 50%;
+    color: var(--text-color-3);
 }
 
 .heading-container .line1 span{

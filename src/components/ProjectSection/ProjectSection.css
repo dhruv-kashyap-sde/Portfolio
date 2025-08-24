@@ -38,6 +38,11 @@
     gap: 0 3vw;
 }
 
+@media (max-width: 1024px) {
+    .project-card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 .project-card-container .project-card{
     background: rgba(255, 255, 255, 0.067);
     border-radius: 10px;
@@ -62,6 +67,16 @@
 
 .project-card-container .project-card:nth-child(odd){
     margin-bottom: 50px;
+}
+
+@media (max-width: 900px){
+  .project-card-container .project-card:nth-child(odd){
+    margin-top: 50px;
+}
+
+.project-card-container .project-card:nth-child(even){
+    margin-bottom: 50px;
+}  
 }
 
 .project-details{
