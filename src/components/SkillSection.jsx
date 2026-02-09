@@ -1,4 +1,3 @@
-import React from 'react'
 import './SkillSection.css'
 import SkillAnimation from '../utils/animations/SkillAnimation'
 

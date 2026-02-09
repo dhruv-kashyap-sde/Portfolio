@@ -1,5 +1,25 @@
 [
   {
+    "title": "Loot My Vouchers",
+    "description": "Claim free vouchers per day and save some money",
+    "images": [
+      "https://res.cloudinary.com/dvqtv7k63/image/upload/v1770636499/www.lootmyvouchers.in__bn3zgn.png"
+    ],
+    "link": "https://lootmyvouchers.in/",
+    "technologies": ["NextJS", "MongoDB", "React", "Shadcn UI"],
+    "year": 2025
+  },
+  {
+    "title": "Accurate Exams",
+    "description": "Access thousands of high-quality mock tests, practice papers, and detailed solutions. Prepare smart, score high, and achieve your dreams.",
+    "images": [
+      "https://res.cloudinary.com/dvqtv7k63/image/upload/v1770637684/localhost_3000__1_xqghpa.png"
+    ],
+    "link": "https://accurateexam.vercel.app//",
+    "technologies": ["NextJS", "MongoDB", "React", "Shadcn UI"],
+    "year": 2026
+  },
+  {
     "title": "Code Quest",
     "description": "Online platform for coding competition",
     "images": [
@@ -10,13 +30,13 @@
     "year": 2024
   },
   {
-    "title": "Loot My Vouchers",
-    "description": "Claim free vouchers per day and save some money",
+    "title": "Skill Vedaa Swar",
+    "description": "English Speaking and Proficeiency Test Platform",
     "images": [
-      "https://res.cloudinary.com/dvqtv7k63/image/upload/c_crop,ar_16:9/v1755853835/202ba11e-4c18-4afe-b98f-493c5488523e.png"
+      "https://res.cloudinary.com/dvqtv7k63/image/upload/v1770637233/Screenshot_21_i0r9iv.png"
     ],
-    "link": "https://lootmyvouchers.onrender.com/",
-    "technologies": ["React", "Node.js", "Express.js", "MongoDB"],
+    "link": "https://vna.skillvedaa.in//",
+    "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Material UI"],
     "year": 2025
   },
   {
