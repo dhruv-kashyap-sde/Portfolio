@@ -26,7 +26,7 @@
       "https://res.cloudinary.com/dvqtv7k63/image/upload/v1755851705/codequest-frontend.onrender.com__gjrybp.png"
     ],
     "link": "https://codequest-frontend.onrender.com/",
-    "technologies": ["React", "GSAP"],
+    "technologies": ["React", "GSAP", "Express.js", "MongoDB"],
     "year": 2024
   },
   {

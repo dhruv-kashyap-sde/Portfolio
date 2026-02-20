@@ -27,6 +27,13 @@ const ProjectSection = () => {
               <div className="project-details">
                 <h2 className="main-text">{project.title}</h2>
                 <p className="project-description">{project.description}</p>
+                <p className="badge-list">
+                  {project.technologies.map((tech, idx) => (
+                    <span key={idx} className="badge">
+                      {tech}
+                    </span>
+                  ))}
+                </p>
                 <div className="project-details-text">
                   <a
                     href={project.link}

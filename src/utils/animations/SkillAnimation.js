@@ -11,9 +11,10 @@ const SkillAnimation = () => {
        scrollTrigger: {
          trigger: ".skills-container",
          start: "top 70%",
-         end: "top center",
-         scrub: 2,
-       },
+         end: "top 70%",
+         scrub: 1,
+         //markers:true       
+},
      });
      tl.from("hr", {
        y: 300,

@@ -60,6 +60,9 @@
     padding: 0 10px;
 }
 
+.heading-container a{
+    text-align: right;
+}
 .main4 .right{
     /* background-color: red; */
     width: 40%;

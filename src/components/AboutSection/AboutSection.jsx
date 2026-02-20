@@ -18,7 +18,7 @@ const AboutSection = () => {
               <p>About <span className='italic-text'>Me</span></p>
             </div>
             <div className="line2">
-              <p>Skilled and Self-taught Developer with a strong background in web application development. Skilled in JavaScript, HTML, CSS, React.js and Node.js and DSA with Java. Committed to creating and deploying innovative and scalable web and mobile solutions.</p>
+              <p>Skilled and Self-taught Developer from <span className="highlight-text">India</span> with a strong background in web application development. Skilled in <span className="highlight-text">JavaScript, HTML, CSS, React.js and Node.js</span> and DSA with Java. Committed to creating and deploying innovative and scalable web and mobile solutions.</p>
             </div>
             <Link to={"/about"}>
               <button className='basic-button'> Know More</button>
@@ -26,7 +26,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="right">
-          <img src={image} alt="" />
+          {/* <img src={image} alt="" /> */}
         </div>
       </div>
     </div>

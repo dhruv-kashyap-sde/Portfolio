@@ -113,6 +113,11 @@ hr{
   filter: brightness(.8);
 }
 
+.highlight-text{
+  color: var(--highlight-color);
+  font-weight: 600; 
+}
+
 @media (max-width: 768px) {
   .basic-button {
     font-size: 2vw;
